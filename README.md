@@ -106,7 +106,13 @@ Here are my weekly class notes:
 - 📄 [Week 05 Notes](./Notes/weak_05.pdf)  
 - 📄 [Week 06 Notes](./Notes/Weak_06.pdf)  
 - 📄 [Week 07 Notes](./Notes/Weak_07.pdf)  
-- 📄 [Week 08 Notes](./Notes/Weak_08.pdf)  
+- 📄 [Week 08 Notes](./Notes/Weak_08.pdf)
+
+
+> ⚠️ **Important:**  
+> You can open and edit these notebooks in **Google Colab** for practice.  
+> However, any changes you make will **only affect your copy in Colab** —  
+> the original files in this GitHub repository will remain unchanged.
 
 ---
 
