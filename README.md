@@ -80,6 +80,20 @@ Each topic is explained briefly, and the corresponding notebook can be opened di
 - **OOP Basics** – Introduction to classes, objects, attributes, and methods.  
   [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/OOP.ipynb)  
 
+## 📘 Notes
+
+Here are my weekly class notes:
+
+- [Week 01 Notes](./Notes/Week_01.pdf)  
+- [Week 02 Notes](./Notes/Week_02.pdf)  
+- [Week 03 Notes](./Notes/Week_03.pdf)  
+- [Week 04 Notes](./Notes/Week_04.pdf)  
+- [Week 05 Notes](./Notes/Week_05.pdf)  
+- [Week 06 Notes](./Notes/Week_06.pdf)  
+- [Week 07 Notes](./Notes/Week_07.pdf)  
+- [Week 08 Notes](./Notes/Week_08.pdf)  
+
+
 ---
 
 ## How to Use
