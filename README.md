@@ -89,7 +89,7 @@ Here are my weekly class notes:
 - [Week 02 Notes](./Notes/Weak_02.pdf)  
 - [Week 03 Notes](./Notes/Weak_03.pdf)  
 - [Week 04 Notes](./Notes/Weak_04.pdf)  
-- [week 05 Notes](./Notes/Weak_05.pdf)  
+- [Week 05 Notes](./Notes/weak_05.pdf)  
 - [Week 06 Notes](./Notes/Weak_06.pdf)  
 - [Week 07 Notes](./Notes/Weak_07.pdf)  
 - [Week 08 Notes](./Notes/Weak_08.pdf)  
