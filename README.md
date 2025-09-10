@@ -95,20 +95,6 @@ In this repository, every notebook has **two links**:
 
 ---
 
-## 📘 Notes
-
-Here are my weekly class notes:
-
-- 📄 [Week 01 Notes](./Notes/Weak_01.pdf)  
-- 📄 [Week 02 Notes](./Notes/Weak_02.pdf)  
-- 📄 [Week 03 Notes](./Notes/Weak_03.pdf)  
-- 📄 [Week 04 Notes](./Notes/Weak_04.pdf)  
-- 📄 [Week 05 Notes](./Notes/weak_05.pdf)  
-- 📄 [Week 06 Notes](./Notes/Weak_06.pdf)  
-- 📄 [Week 07 Notes](./Notes/Weak_07.pdf)  
-- 📄 [Week 08 Notes](./Notes/Weak_08.pdf)
-
-
 > ⚠️ **Important:**  
 > You can open and edit these notebooks in **Google Colab** for practice.  
 > However, any changes you make will **only affect your copy in Colab** —  
