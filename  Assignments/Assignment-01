@@ -1,0 +1,1150 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "collapsed_sections": [
+        "iWisKUfFWlux",
+        "rSgwS0OlgIs8",
+        "KdEy0d0-sXj1",
+        "GabSEyoEhb1d"
+      ],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/%20Assignments/Assignment-01\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Section A: Basics & Expressions**\n",
+        "1. Write a program that takes two numbers from user and swaps/exchanges the values of these two variables without using a third variab."
+      ],
+      "metadata": {
+        "id": "iWisKUfFWlux"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "PIy5CAU8Wf1F",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "2048c1cf-b9d9-48f5-e247-900640b6f8b0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first No:5\n",
+            "Enter Second No:23\n",
+            "Values befor Swapping:\n",
+            "N1 =  5 , N2 =  23\n",
+            "Values after Swapping:\n",
+            "N1 =  23 , N2 =  5\n"
+          ]
+        }
+      ],
+      "source": [
+        "N1 =  int (input(\"Enter first No:\"))\n",
+        "N2 =  int (input(\"Enter Second No:\"))\n",
+        "\n",
+        "print(\"Values befor Swapping:\")\n",
+        "print(\"N1 = \",N1 , \", N2 = \",N2)\n",
+        "N1 = N1 + N2\n",
+        "N2 = N1 - N2\n",
+        "N1 = N1 - N2\n",
+        "print(\"Values after Swapping:\")\n",
+        "print(\"N1 = \",N1 , \", N2 = \",N2)  f"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2.Convert Seconds into hours,minutes and seconds(e.g.,3661 => 1 hour,1 minute,1 second)"
+      ],
+      "metadata": {
+        "id": "CH8Zpz3SdTQv"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n = int(input(\"Enter time in seconds\"))\n",
+        "\n",
+        "hours = n // 3600\n",
+        "minutes = (n % 3600) // 60\n",
+        "seconds = (n % 3600) % 60\n",
+        "\n",
+        "print(hours,\"Hour\",\":\",minutes,\"Minute\",\":\",seconds,\"Seconds\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3i9LnewNdsoo",
+        "outputId": "96a2e044-34d6-476c-8f68-c0551202f5b1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter time in seconds3661\n",
+            "1 Hour : 1 Minute : 1 Seconds\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3.Ask user for age in years,convert it into month and print result"
+      ],
+      "metadata": {
+        "id": "ZxmKv_c5esiT"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = int(input(\"Enter age in years: \"))\n",
+        "\n",
+        "print(age*12,\"Months\")\n"
+      ],
+      "metadata": {
+        "id": "dhtFmUvPe592",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "1f8764f4-3392-4201-f38d-57d8399b972b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter age in years: 20\n",
+            "240 Months\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Section B: Conditions & Decisions ** **bold text**\n",
+        "4.Take a number as input and check weather it is divisible by both 3 and 5."
+      ],
+      "metadata": {
+        "id": "rSgwS0OlgIs8"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Num = int(input(\"Enter a number\"))\n",
+        "\n",
+        "if Num % 3 == 0 and Num % 5 == 0:\n",
+        "  print(\"Number is divisible by both 3 and 5\")\n",
+        "else:\n",
+        "  print(\"Number is not divisible by both 3 and 5\")"
+      ],
+      "metadata": {
+        "id": "1c9EwMerg64K",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "0a57078a-0df3-4c9a-d890-d97c7a1fd67e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number5\n",
+            "Number is not divisible by both 3 and 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "5.write a program that ask a user to input a year and check weather it is a leap year or not."
+      ],
+      "metadata": {
+        "id": "nKbUizsQh-AZ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "year =int(input(\"Enter a year:  \"))\n",
+        "\n",
+        "\"\"\"This line checks if the `year` is perfectly divisible by both 400 and 100\n",
+        "using the modulo operator (`%`). If **True**, it means the `year` is a leap year\n",
+        "and prints a message accordingly.\"\"\"\n",
+        "\n",
+        "if (year % 400 == 0) and (year % 100 == 0):\n",
+        "  print(year,\" is a leap year\")\n",
+        "elif (year % 4 == 0) and (year % 100 != 0):# If the first condition is **False**, this line checks if the `year` is divisible by 4 but not by 100. If **True**, it's a leap year and prints a message.\n",
+        "  print(year,\" is a leap year\")\n",
+        "else:\n",
+        "  print(year,\"is not a leap year\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Vdz1BtPeiagQ",
+        "outputId": "5e8c08a7-f2a1-4c8b-8dda-9280fadce13d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a year:  2019\n",
+            "2019 is not a leap year\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "6. Ask the user to enter a username. If it matches \"admin\", print \"Access granted\", otherwise \"Access denied\".\n"
+      ],
+      "metadata": {
+        "id": "PNgap0kkporE"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "username = input(\"Enter username: \")\n",
+        "\n",
+        "if username == \"admin\":\n",
+        "  print(\"Access granted\")\n",
+        "else:\n",
+        "  print(\"Access denied\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6-QjH2CK_sAT",
+        "outputId": "0277982f-7ce7-4693-b5c7-11fc8ba5da43"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter username: admin\n",
+            "Access granted\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "7. Check if a given chracter is vowel or consonent"
+      ],
+      "metadata": {
+        "id": "oqBaUWJvAkfe"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "char = input(\"Enter a character: \")\n",
+        "\n",
+        "if char == \"a\" or char == \"e\" or char == \"i\" or char == \"o\" or char == \"u\":\n",
+        "  print(char,\"is a vowel\")\n",
+        "elif char == \"A\" or char == \"E\" or char == \"I\" or char == \"O\" or char == \"U\":\n",
+        "    print(char,\"is a vowel\")\n",
+        "else:\n",
+        "  print(char,\"is a consonent\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HzxUFRF7A0m8",
+        "outputId": "47f09f69-c45e-4f3e-e185-0b6c298f7f3b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a character: c\n",
+            "c is a consonent\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "8. Write a program that takes four numbers as input and print the smallest one."
+      ],
+      "metadata": {
+        "id": "r_vPnYxfC55E"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n1 = int(input(\"Enter 1st number: \"))\n",
+        "n2 = int(input(\"Enter 2nd number: \"))\n",
+        "n3 = int(input(\"Enter 3rd number: \"))\n",
+        "n4 = int(input(\"Enter 4th number: \"))\n",
+        "\n",
+        "if (n1 < n2 and n1 < n3 and n1 < n4):\n",
+        "  print(n1,\"is the smallest number\")\n",
+        "elif(n2 < n1 and n2 < n3 and n2 < n4):\n",
+        "    print(n2,\"is the smallest number\")\n",
+        "elif(n3 < n1 and n3 < n2 and n3 < n4):\n",
+        "      print(n3,\"is the smallest number\")\n",
+        "else:\n",
+        "    print(n4,\"is the smallest number\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7LtTyDRADMA-",
+        "outputId": "3ca1f389-9d04-4847-db52-cebe0049bc04"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter 1st number: 4\n",
+            "Enter 2nd number: 5\n",
+            "Enter 3rd number: 1\n",
+            "Enter 4th number: 8\n",
+            "1 is the smallest number\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "9. Take temperature (in Celsius) from user and:\n",
+        "If it’s >40, print “Too Hot”\n",
+        "If it’s between 20–40, print “Pleasant”\n",
+        "If it’s below 20, print “Too Cold”"
+      ],
+      "metadata": {
+        "id": "uBEPNRt0FO1p"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tem = float(input(\"Enter temperature in Celsius: \"))\n",
+        "\n",
+        "if (tem > 40):\n",
+        "  print(\"Too Hot\")\n",
+        "elif (tem >= 20 and tem <= 40): #between 20 to 40\n",
+        "  print(\"Pleasant\")\n",
+        "elif (tem < 20):\n",
+        "  print(\"Too Cold\")\n",
+        "else:\n",
+        "  print(\"Invalid input\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pXXpRE3TFmR5",
+        "outputId": "cf09f2ae-f366-4837-c9c8-b54d22d544d2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter temperature in Celsius: 30\n",
+            "Pleasant\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Section C:Loops(for,while)**\n",
+        "10. Print all numbers from 1 to 100 that are divisible by 7 in one line."
+      ],
+      "metadata": {
+        "id": "-cOzjVdvG6tR"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range(1,100):\n",
+        "  if (i % 7 == 0):\n",
+        "    print(i,end = \" \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_-5j2GO7HgUt",
+        "outputId": "c1d6a34f-ffb7-4fe6-9a73-8aef1ac9a9ae"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "7 14 21 28 35 42 49 56 63 70 77 84 91 98 "
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "11. Write a program that prints all prime numbers between 1 and 50."
+      ],
+      "metadata": {
+        "id": "DCsE8FmJH8q-"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range(1,51):\n",
+        "  if i > 1: #skips i = 1 since 1 is not a prime number\n",
+        "    for j in range(2,i):\n",
+        "      if (i % j == 0 ):\n",
+        "        break\n",
+        "    else:\n",
+        "        print(i)"
+      ],
+      "metadata": {
+        "id": "Ydi2GqvLIBqt",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "c1f6a9b3-8bfe-4ea9-bcfc-7d54b3d766e0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n",
+            "3\n",
+            "5\n",
+            "7\n",
+            "11\n",
+            "13\n",
+            "17\n",
+            "19\n",
+            "23\n",
+            "29\n",
+            "31\n",
+            "37\n",
+            "41\n",
+            "43\n",
+            "47\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "12. Take a number n and print its digits in reverse using a while loop."
+      ],
+      "metadata": {
+        "id": "C2R5XaP8aste"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n = int(input(\"Enter a number: \"))\n",
+        "\n",
+        "while n > 0:\n",
+        "  digit = n % 10\n",
+        "  print(digit,end = \"\")\n",
+        "  n = n // 10"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nzhR67hzavXy",
+        "outputId": "1ff0f00a-d09c-477b-862b-6a73f59ea5a5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 17\n",
+            "71"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "13. Sum of All Even Numbers Between 1 and 50 (Using a For Loop)."
+      ],
+      "metadata": {
+        "id": "SJ8C4YGOOqdB"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "sum = 1\n",
+        "for i in range(1,51):\n",
+        "\n",
+        "  if (i % 2 == 0):\n",
+        "    sum = sum + i\n",
+        "print(\"Sum is :\",sum)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Uqd4jsZzOr6B",
+        "outputId": "b7bdd375-9042-4f80-dc5f-40d2addcdfd5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Sum is : 651\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "14. Create a program that keeps asking the user for a password until the correct one is entered (\"Python123\"). Use a loop."
+      ],
+      "metadata": {
+        "id": "88rNtTpVQxCa"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "password = \"Python123\"\n",
+        "\n",
+        "while True:\n",
+        "  input_password = input(\"Enter password: \")\n",
+        "  if (input_password == password):\n",
+        "    print(\"Access granted\")\n",
+        "    break\n",
+        "  else:\n",
+        "    print(\"Access denied\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jZ8cDrCtQ_Ao",
+        "outputId": "866cc6ea-f6f7-4c9b-cf7c-39477c199fc6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter password: python123\n",
+            "Access denied\n",
+            "Enter password: Python123\n",
+            "Access granted\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "15. Write a program that takes an integer as input and compute the factorial of a given number using a for loop."
+      ],
+      "metadata": {
+        "id": "iAmc1YsccG7e"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = int(input(\"Enter a number: \"))\n",
+        "\n",
+        "fact = 1\n",
+        "if (num < 0):\n",
+        "  print(\"Factorial does not exist\")\n",
+        "elif (num == 0):\n",
+        "  print(\"Factorial of \",num, \" is 1\")\n",
+        "else:\n",
+        "  for i in range(1,num + 1):\n",
+        "    fact = fact * i\n",
+        "  print(\"Factorial is :\",fact)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BYUyZzDplpOm",
+        "outputId": "ad10dcd0-750e-4244-934d-4e627e085fb3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 5\n",
+            "Factorial is : 120\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "16. Write a program that print Fibonacci sequence:\n",
+        "1,1,2,3,5,8,13,21,34,55,89."
+      ],
+      "metadata": {
+        "id": "FBFBDvsrfg0r"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 1\n",
+        "b = 1\n",
+        "\n",
+        "print(a,b,end = \" \")\n",
+        "while True:\n",
+        "  c = a + b\n",
+        "  if c > 89:\n",
+        "    break\n",
+        "  print(c,end = \" \")\n",
+        "  a = b\n",
+        "  b = c"
+      ],
+      "metadata": {
+        "id": "xbwDqgEZfivD",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "ba2398e5-42ae-4147-d773-d1ee057ebeb0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1 1 2 3 5 8 13 21 34 55 89 "
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Section D:Strings.**\n",
+        "17. Check if a given string is a palindrome (e.g., madam or level)."
+      ],
+      "metadata": {
+        "id": "KdEy0d0-sXj1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "str = input(\"Enter a string: \")\n",
+        "\n",
+        "if (str == str[::-1]): #string slicing\n",
+        "  print(str,\"is a palindrome\")\n",
+        "else:\n",
+        "  print(str,\"is not a palindrome\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ATH-0VGgsw1M",
+        "outputId": "fb6980b3-ad84-4603-ebfe-cbe5afba926b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a string: madam\n",
+            "madam is a palindrome\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "18. Take a sentence from the user and count how many words it contains."
+      ],
+      "metadata": {
+        "id": "qnBWTyg96I4W"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "sentence = input(\"Enter a sentence: \")\n",
+        "print(\"Number of words in sentence are: \",len(sentence))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SiimabpI6PVH",
+        "outputId": "89b335ad-bc8a-421f-990e-4c873b80e72a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a sentence: I am Muammad Ibrahim\n",
+            "Number of words in sentence are:  20\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "19. Ask the user to enter their email and check if it ends with @gmail.com."
+      ],
+      "metadata": {
+        "id": "o9nXCjcL7kUY"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "email = input(\"Enter your email: \")\n",
+        "\n",
+        "if (email.endswith(\"@gmail.com\")):\n",
+        "  print(\"Email is valid\")\n",
+        "else:\n",
+        "  print(\"Email is invalid\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jyeEOy0Y7pjy",
+        "outputId": "980ad1b1-81c9-43b1-f429-06d8ef5b09fc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your email: mibrahimkhalid306@gmail.com\n",
+            "Email is valid\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "20. From a sentence, remove all vowels and print the result."
+      ],
+      "metadata": {
+        "id": "JMlnaDF88r0t"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "sentence = input(\"Enter a sentence: \")\n",
+        "\n",
+        "vowels = \"aeiou\" and \"AEIOU\"\n",
+        "for i in vowels:\n",
+        "  sentence = sentence.replace(i,\"\")\n",
+        "print(sentence)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tClYhSsg8w--",
+        "outputId": "b8b7ae06-3856-4645-be9a-e2300cea8056"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a sentence: IBRAHIM\n",
+            "BRHM\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "21. Ask the user for a string and a letter, then count how many times that letter appears."
+      ],
+      "metadata": {
+        "id": "gOdOerB1f_VK"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "str = input(\"Enter a string: \")\n",
+        "\n",
+        "letter = input(\"Enter a letter: \")\n",
+        "count = 0\n",
+        "for i in str:\n",
+        "  if (i == letter):\n",
+        "    count = count + 1\n",
+        "print(\"Number of times\",letter,\"appears in\",str,\"is\",count)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jSRAu8C8gCDV",
+        "outputId": "4cfedd93-3441-4a2d-9ff3-247324ccfcd7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a string: Ibrahim\n",
+            "Enter a letter: i\n",
+            "Number of times i appears in Ibrahim is 1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Section E: List Tuples and Functions.**"
+      ],
+      "metadata": {
+        "id": "GabSEyoEhb1d"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "22. Create a tuple of 5 cities and use a loop to print each one."
+      ],
+      "metadata": {
+        "id": "Q3-8oUe5hnZt"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "cities = (\"Krachi\", \"Shahdadpur\" ,\"Hyderbad\",\"Sanghar\",\"Jamshoro\")\n",
+        "\n",
+        "for i in cities:\n",
+        "  print(i)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "D6gcAHiMhuB7",
+        "outputId": "3d6cef4d-f576-481e-cae4-7f43e9c3a4de"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Krachi\n",
+            "Shahdadpur\n",
+            "Hyderbad\n",
+            "Sanghar\n",
+            "Jamshoro\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "23. Ask the user to enter 5 numbers and store them in a list. Then:\n",
+        "Sort the list\n",
+        "Print the max and min\n",
+        "Find the average\n"
+      ],
+      "metadata": {
+        "id": "qpLf72nPiexl"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Number = []\n",
+        "\n",
+        "for i in range(1,6):\n",
+        "  print(\"Enter Number \",i ,\" = \",end = '')\n",
+        "  num = int(input())\n",
+        "  Number.append(num)\n",
+        "# Sort operation\n",
+        "Number.sort()\n",
+        "print(\"Sorted list is = \",Number)\n",
+        "\n",
+        "# min number\n",
+        "print(\"Min number is = \",Number[0])\n",
+        "\n",
+        "# max number\n",
+        "print(\"Max number is = \",Number[5-1])\n",
+        "\n",
+        "# Caculate average\n",
+        "total = 0\n",
+        "for num in Number:\n",
+        "   total += int(num) #add each num to total and covert str to integer\n",
+        "print(\"Average is: \",total/len(Number))"
+      ],
+      "metadata": {
+        "id": "eg1X58pJiZ5U"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "24. Write a python program that must define 4 functions add, subtract,\n",
+        "multiply, divide. The program will work as below:\n",
+        "Take two integer inputs\n",
+        "Show the following menu:\n",
+        "1 Addition\n",
+        "2 Subtraction\n",
+        "3 Multiplication\n",
+        "4 Division\n",
+        "5 Exit\n",
+        "What do you want to do?\n",
+        "Now ask user’s choice from 1-5 and call the appropriate\n",
+        "function and print the result.\n",
+        "Repeat the entire process until user choose option 5 for Exit"
+      ],
+      "metadata": {
+        "id": "zeGEi5IcqV2R"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def add(a, b):\n",
+        "    return a + b\n",
+        "\n",
+        "def subtract(a, b):\n",
+        "    return a - b\n",
+        "\n",
+        "def multiply(a, b):\n",
+        "    return a * b\n",
+        "\n",
+        "def divide(a, b):\n",
+        "    if b == 0:\n",
+        "        return \"Error: Cannot divide by zero!\"\n",
+        "    return a / b\n",
+        "\n",
+        "while True:\n",
+        "    num1 = int(input(\"Enter first number: \"))\n",
+        "    num2 = int(input(\"Enter second number: \"))\n",
+        "\n",
+        "    # show menue\n",
+        "    print(\"1. Addition\")\n",
+        "    print(\"2. Subtraction\")\n",
+        "    print(\"3. Multiplication\")\n",
+        "    print(\"4. Division\")\n",
+        "    print(\"5. Exit\")\n",
+        "\n",
+        "    choice = int(input(\"What do you want to do? \"))\n",
+        "    # call function based on choice\n",
+        "    if choice == 1:\n",
+        "        print(\"Result: \", add(num1, num2))\n",
+        "    elif choice == 2:\n",
+        "            print(\"Result: \", subtract(num1, num2))\n",
+        "    elif choice == 3:\n",
+        "        print(\"Result: \", multiply(num1, num2))\n",
+        "    elif choice == 4:\n",
+        "        print(\"Result: \", divide(num1, num2))\n",
+        "\n",
+        "    elif choice == 5:\n",
+        "        print(\"Exiting the program.\")\n",
+        "        break\n",
+        "    else:\n",
+        "        print(\"Invalid choice. Please select a valid option.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BOT6JSLhqd8N",
+        "outputId": "aed4f1cc-aa64-4881-d901-ec7920a7a170"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first number: 4\n",
+            "Enter second number: 5\n",
+            "1. Addition\n",
+            "2. Subtraction\n",
+            "3. Multiplication\n",
+            "4. Division\n",
+            "5. Exit\n",
+            "What do you want to do? 1\n",
+            "Result:  9\n",
+            "Enter first number: 6\n",
+            "Enter second number: 4\n",
+            "1. Addition\n",
+            "2. Subtraction\n",
+            "3. Multiplication\n",
+            "4. Division\n",
+            "5. Exit\n",
+            "What do you want to do? 6\n",
+            "Invalid choice. Please select a valid option.\n",
+            "Enter first number: 5\n",
+            "Enter second number: 3\n",
+            "1. Addition\n",
+            "2. Subtraction\n",
+            "3. Multiplication\n",
+            "4. Division\n",
+            "5. Exit\n",
+            "What do you want to do? 2\n",
+            "Result:  2\n",
+            "Enter first number: 3\n",
+            "Enter second number: 4\n",
+            "1. Addition\n",
+            "2. Subtraction\n",
+            "3. Multiplication\n",
+            "4. Division\n",
+            "5. Exit\n",
+            "What do you want to do? 5\n",
+            "Exiting the program.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "25. Write a program that takes a number and a character from user and produce output as below:\n",
+        "Enter the number of lines of triangle: 6\n",
+        "And a character: *\n",
+        "Note: To print every line, you must define a function line(no, ch). For example, line(7,'*') should print *******, similarly line (2,'*') should print **."
+      ],
+      "metadata": {
+        "id": "MDbbonKmtMlz"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def line(no, ch):\n",
+        "    print(ch * no)\n",
+        "\n",
+        "n = int(input(\"Enter the number of lines of triangle: \"))\n",
+        "ch = input(\"Enter a character: \")\n",
+        "\n",
+        "for i in range(1, n + 1):\n",
+        "    line(i, ch)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "We9TgIJxtSNb",
+        "outputId": "4be9f187-97c7-46a0-8587-54ffb423ffaa"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the number of lines of triangle: 6\n",
+            "Enter a character: *\n",
+            "*\n",
+            "**\n",
+            "***\n",
+            "****\n",
+            "*****\n",
+            "******\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
