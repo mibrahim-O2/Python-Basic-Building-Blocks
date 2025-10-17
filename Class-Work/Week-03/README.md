@@ -46,7 +46,7 @@ You can write programs that:
 
 ### 🔹 Strings in Python
 
-📎 [String Functions - GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/String_Functions.ipynb)
+📎 [String Functions - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-03/String_Functions.ipynb)
 
 Strings in Python are surrounded by either single quotation marks or double quotation marks.  
 `'hello'` is the same as `"hello"`.  
