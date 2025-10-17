@@ -36,7 +36,7 @@ The `input()` function allows user input.
 
 **prompt:** A string representing a default message before the input.
 
-📎 [Example on Google Colab](https://colab.research.google.com/drive/1AgnWL5QXtiLUtiPv9Uxc89seYhWrZ06t#scrollTo=OPmxzOBg1dQo)
+📎 [User Input - GitHub Link]( https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-03/User_Input.ipynb)
 
 You can write programs that:
 - Take two numbers as input and print the average of those numbers.  
