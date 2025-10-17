@@ -76,7 +76,7 @@ If a searched letter or word is not found, the `find()` function returns `-1` be
 
 ### 🔹 Control Structure: Flow of Execution of Program
 
-📎 [Control Structures - GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Control_Structures.ipynb)
+📎 [Control Structures - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-03/Control_Structures.ipynb)
 
 Control structures determine the **flow of execution** of a program.  
 They allow developers to control how and when certain parts of code are executed.
