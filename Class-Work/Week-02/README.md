@@ -39,18 +39,7 @@ When a variable name contains multiple words, these are common naming styles:
 [GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-02/Swapping.ipynb)
 
 #### 🔹  Operators
-[GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-02/Swapping.ipynb)
+[GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-02/Operators.ipynb)
 
-```python
-N1 = int(input("Enter first No: "))
-N2 = int(input("Enter Second No: "))
-print("Values before Swapping:")
-print("N1 =", N1, ", N2 =", N2)
-
-temp = N1
-N1 = N2
-N2 = temp
-
-print("Values after Swapping:")
-print("N1 =", N1, ", N2 =", N2)
+ 
 
