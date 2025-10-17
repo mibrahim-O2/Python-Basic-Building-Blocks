@@ -36,7 +36,7 @@ When a variable name contains multiple words, these are common naming styles:
 ## ⚙️ Python Programs
 
 ### 🔸 Swapping Two Numbers
-[GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Swapping.ipynb)
+[GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-02/Swapping.ipynb)
 
 #### 🔹 Using Third Variable
 File: `swapping_with_third_variable.py`
