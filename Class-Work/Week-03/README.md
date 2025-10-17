@@ -9,7 +9,7 @@
 Type casting, or type conversion, refers to converting a variable from one data type to another in Python.  
 For example, if you have a variable containing a string number such as `"27"`, you may need to convert it to an integer before performing arithmetic operations. Otherwise, Python will interpret `"27"` as a string and add it to other strings instead of performing arithmetic.
 
-📎 [Type Casting - GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Type_Casting.ipynb)
+📎 [Type Casting - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-03/Type_Casting.ipynb)
 
 Python provides two types of type casting:
 1. **Explicit Type Casting** – The programmer manually converts one data type into another.  
