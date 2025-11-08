@@ -30,7 +30,7 @@ while count <= n:
 print("Out of loop")
 ```
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Repititve_Structure.ipynb#L6)
+📎 [GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-05/Repititve_Structure.ipynb)
 
 #### 🧩 Example 2: Print fixed 5 lines of stars
 
@@ -41,7 +41,7 @@ while count <= 5:
     count += 1
 ```
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Repititve_Structure.ipynb#L10)
+📎 [GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-05/Repititve_Structure.ipynb)
 
 ---
 
@@ -58,7 +58,7 @@ while x >= 0:
 print("Sum =", sum)
 ```
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Repititve_Structure.ipynb#L15)
+📎 [GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-05/Repititve_Structure.ipynb)
 
 Alternative implementation using `if` inside the loop:
 
@@ -72,7 +72,7 @@ while x >= 0:
 print("Sum =", sum)
 ```
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Repititve_Structure.ipynb#L23)
+📎 [GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-05/Repititve_Structure.ipynb)
 
 ---
 
@@ -90,7 +90,7 @@ while n <= 4:
 print("Sum =", sum)
 ```
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Repititve_Structure.ipynb#L30)
+📎 [GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-05/Repititve_Structure.ipynb)
 
 ---
 
@@ -115,7 +115,7 @@ while n > 0:
 print("Sum =", sum)
 ```
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Repititve_Structure.ipynb#L39)
+📎 [GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-05/Repititve_Structure.ipynb)
 
 ---
 
@@ -136,7 +136,7 @@ else:
 print("Sum =", sum)
 ```
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Repititve_Structure.ipynb#L51)
+📎 [GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-05/Repititve_Structure.ipynb)
 
 ---
 
@@ -152,7 +152,7 @@ while c <= 100:
     c += 1
 ```
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Repititve_Structure.ipynb#L60)
+📎 [GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-05/Repititve_Structure.ipynb)
 
 #### Method 2 (using continue):
 
@@ -166,7 +166,7 @@ while c <= 100:
     c += 1
 ```
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Repititve_Structure.ipynb#L67)
+📎 [GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-05/Repititve_Structure.ipynb)
 
 #### Method 3 (increment by 2):
 
@@ -177,7 +177,7 @@ while c <= 100:
     c += 2
 ```
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Repititve_Structure.ipynb#L74)
+📎 [GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-05/Repititve_Structure.ipynb)
 
 ---
 
@@ -191,7 +191,7 @@ while c <= 10:
     c += 1
 ```
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Repititve_Structure.ipynb#L81)
+📎 [GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-05/Repititve_Structure.ipynb)
 
 ---
 
@@ -213,5 +213,5 @@ while c2 <= 4:
 print("Final sum is:", sum)
 ```
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Nested_WhileLoop.ipynb)
+📎 [GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-05/Nested_WhileLoop.ipynb)
 
