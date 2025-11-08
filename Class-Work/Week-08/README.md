@@ -40,17 +40,31 @@
 ---
 
 ### 🔹 OOP Fundamental Building Blocks
+**Four fundamental building blocks/components/concepts/features:**
 
-1. **Inheritance**: Creating new classes from existing ones.
+* Inheritance
+* Polymorphism
+* Encapsulation
+* Abstraction
 
-   * Types in Python: Single, Multi, Multi-Level.
-   * Advantages: Code reuse, extend functionality without rewriting base class.
-2. **Encapsulation**: Binding object state (fields) and behavior (methods) together in a class.
-3. **Abstraction**: Hiding internal details and showing only functionality.
-4. **Polymorphism**: Many forms; achieved via method overloading and overriding.
+### Inheritance
 
+* Creating new classes from existing class(es).
+* New classes: derived/child/sub classes
+* Existing classes: base/super classes
+  **Advantages:**
+* Existing classes remain unchanged; additional features can be added in derived classes
+* Base class code need not be rewritten
+* Variables and methods of base class usable in child class
+* Provides reusability
+
+**Types of Inheritance:**
+
+1. Single Inheritance: child class inherits from single parent
+2. Multi-Inheritance: child class inherits from multiple parents
+3. Multi-Level Inheritance: class inherits from parent, and parent inherits from another parent
 ---
-
+ 
 ### 🔹 Basic Structure of Python Class
 
 ```python
@@ -160,9 +174,9 @@ class Complex:
 ---
 
 ### 🔹 Method Overloading
-
-* Python achieves method overloading via default parameters or variable-length arguments.
-
+* Multiple methods in same class with same name but different parameters
+* Python uses default arguments and variable length argument lists
+ 
 **Default Arguments Example:**
 
 ```python
@@ -172,6 +186,9 @@ class Calculator:
             return x
         else:
             return x+y
+c1 = Calculator()
+print(c1.add(10))
+print(c1.add(10,20))
 ```
 
 **Variable Length Arguments Example:**
@@ -183,6 +200,10 @@ class Calculator:
         for num in args:
             total += num
         return total
+c1 = Calculator()
+print(c1.add(10))
+print(c1.add(10,20))
+print(c1.add(10,20,30))
 ```
 
 ---
@@ -193,27 +214,51 @@ class Calculator:
 
 ```python
 class Vehicle:
-    def __init__(self,brand,model):
-        self.brand = brand
-        self.model = model
-    def move(self):
-        print("Move")
+  def __init__(self,brand,model):
+    self.brand = brand
+    self.model = model
+
+  def move(self):
+    print("Move")
+
+class Car(Vehicle):
+  pass
 
 class Plane(Vehicle):
-    def move(self):
-        print("Fly")
+  def move(self):
+    print("Fly")
+
+car1 = Car("Toyota","Camry")
+plane1 = Plane("Boeing","747")
+
+for el in (car1,plane1):
+  print(el.brand,el.model)
+  el.move()
 ```
 
 **Animal Example:**
 
 ```python
 class Animal:
-    def speak(self):
-        print("Generic animal sounds")
+  def speak(self):
+    print("Generic animal sounds")
 
 class Dog(Animal):
-    def speak(self):
-        print("Dog barks")
-```
+  def speak(self):
+    print("Dog barks")
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/OOP_Python.ipynb)
+class Cat(Animal):
+  def speak(self):
+    print("Cat meows")
+
+a = Animal()
+d = Dog()
+c = Cat()
+
+a.speak()
+d.speak()
+c.speak()
+```
+---
+[View Full OOP Programs on GitHub](https://github.com/ibraheem-02/Python_Programs/blob/main/OOP_Python.ipynb)
+---
