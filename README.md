@@ -2,8 +2,115 @@
 
 This repository contains a collection of Python programs and Jupyter notebooks that I have implemented while learning programming fundamentals and problem-solving.  
 Each topic is explained briefly, and the corresponding notebook can be opened directly in **Google Colab** or previewed on **GitHub**.
+# 🐍 Python Notes - Week 01 (Summary)
+
+## 🖥️ Computer & Programming  
+- **Computer:** Electronic device that processes and stores data.  
+- **Program:** Set of instructions for a computer to perform tasks.  
+- **Computer Programming:** Process of writing instructions (programs) for computers.  
+
+## 💬 Languages & Translators  
+- **Language:** System of communication using grammar and vocabulary.  
+- **Translator:** Converts programming instructions into binary/machine code.  
+- **High‑Level Language:** Human‑readable (e.g., Python, Java).  
+- **Assembly Language:** Translates between high‑level and machine language.  
+- **Compiler‑Based Language:** Converts code to machine code before execution (e.g., C, C++).  
+- **Interpreter‑Based Language:** Executes code line by line (e.g., Python, JavaScript).  
+
+## ⚙️ Compiler & Interpreter  
+- **Compiler:** Converts full source code into machine code.  
+- **Interpreter:** Executes code one instruction at a time without compiling.  
+
+## ⏱️ Compile Time vs Run Time  
+- **Compile Time:** Code translation and error checking before execution.  
+- **Run Time:** Execution phase where instructions are carried out and runtime errors occur.  
+- **Key Difference:** Compile time detects syntax/semantic errors; runtime handles execution and dynamic errors.  
+
+## ⚠️ Errors  
+- **Syntax Error:** Code structure mistakes (e.g., missing parentheses).  
+- **Compile Time Error:** Found during compilation (e.g., undeclared variables).  
+- **Run Time Error:** Occurs while running (e.g., division by zero).  
+
+## 🔤 Case Sensitivity & Syntax  
+- **Case‑Sensitive:** Languages that distinguish between uppercase and lowercase (e.g., Python, Java).  
+- **Syntax:** Rules that define valid code structure.  
+  - Example: `print("Hello, World!")` in Python.  
+
+## 🧱 Character Set, Reserved Words & Keywords  
+- **Character Set:** Collection of symbols a computer can process.  
+- **Reserved Words:** Reserved by the language; not usable as identifiers.  
+- **Keywords:** Words with special meaning in the language (e.g., `def`, `if`, `return`).  
+- **Special Words:** Context‑specific terms (e.g., `self` in Python).  
+
+## 💾 Memory  
+- **Memory:** Space where data is stored during program execution.  
+- **Key Points:**  
+  - Stores variables and temporary data.  
+  - Each data piece has a unique address.  
+  - Managed logically by the OS to prevent leaks.  
+
+## 🔢 Data Types  
+- **int:** Whole numbers (e.g., 1, ‑5).  
+- **float:** Decimal numbers (e.g., 3.14).  
+- **str:** Text values (e.g., "Hello").  
+- **bool:** Logical values (True/False).  
+
+## 🧮 Variables  
+- **Variables:** Named memory locations to store data that can change during program execution.  
 
 ---
+
+### 📂 Additional Resources  
+Access the Week 01 class work repository here:  
+[Week 01 Class Work – Python Basic Building Blocks](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/tree/main/Class-Work/Week-01)  
+
+---
+
+# 🐍 Python Notes - Week 02 (Summary)
+
+## 📘 Topic: Variables, Naming Conventions & Operators
+
+### 🔹 Variable Declaration / Naming
+- Variables can be short (`x`, `y`) or descriptive (`age`, `car_name`, `total_volume`).  
+- **Rules for Python Variables:**  
+  - Must start with a **letter** or **underscore (`_`)**  
+  - Cannot start with a **number**  
+  - Can only contain **alphanumeric characters & underscores** (`A-z`, `0-9`, `_`)  
+  - **Case-sensitive** (`age`, `Age`, `AGE` are different)  
+  - Cannot be any **Python keyword**
+
+---
+
+### 🧩 Multi-Word Variable Names
+| Style | Example | Description |
+|-------|---------|-------------|
+| **Camel Case** | `myVariableName = "Muhammad Ibrahim"` | Each word except the first starts with a capital letter |
+| **Pascal Case** | `MyVariableName = "Muhammad Ibrahim"` | Each word starts with a capital letter |
+| **Snake Case** | `my_variable_name = "Muhammad Ibrahim"` | Words separated by underscores |
+
+---
+
+### 🧠 Two Ways to Store Values
+1. **Assignment Operator**  
+2. **User Input**  
+
+> **Note:** A variable cannot be assigned on the right-hand side as constants cannot store variables due to memory allocation.
+
+---
+
+## ⚙️ Python Programs
+
+### 🔸 Swapping Two Numbers
+[Swapping Two Numbers - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-02/Swapping.ipynb)
+
+### 🔹 Operators
+[Operators - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-02/Operators.ipynb)
+
+---
+
+### 📂 Full Week 02 Repository
+Access all Week 02 class work here:  
+[Week 02 Class Work – Python Basic Building Blocks](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/tree/main/Class-Work/Week-02)
 
 ## ✨ Why Both GitHub & Colab Links?
 
