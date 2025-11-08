@@ -1,6 +1,8 @@
-# Python_Notes_Week_07
+# 🐍 Python Notes - Week 07
 
-## Default Parameter in function:
+## 📘 Topic: Advanced Functions, Recursion & File Handling
+
+### Default Parameter in function:
 
 ### Arbitrary Arguments, *args:
 
@@ -71,7 +73,7 @@ for i in range(10):
 
 A defined function call itself. This has the benefit of meaning that we can loop through data to reach a result. Recursion based on two conditions.
 
-[👉 Click here to open Recursion program on GitHub](https://github.com/ibraheem-02/Python_Programs/blob/main/Recursion.ipynb)
+[👉 Click here to open Recursion program on GitHub]( https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-07/Recursion.ipynb)
 
 1. Base situation/condition/case.(end of recursion).
 2. Recursive case (repeat itself) Recursive case end as loop or vise versa.
@@ -90,7 +92,7 @@ Let’s find the factorial of a number take number from user for example user en
                                                   fact(0) = 1
 ```
 
-Python Program → [Open on GitHub](https://github.com/ibraheem-02/Python_Programs/blob/main/Recursion.ipynb)
+Python Program → [Open on GitHub](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-07/Recursion.ipynb)
 
 ---
 
@@ -122,29 +124,69 @@ In addition we can specify if the file should be handled as binary or text mode:
 
 To open a file we can use open() function, which requires file path and mode as arguments:
 
-Program → [Open File Handling Example on GitHub](https://github.com/ibraheem-02/Python_Programs/blob/main/FileHandling.ipynb)
+**Example: Reading a File**
+
+```python
+F1 = open("Class_Work/File.txt", "r")
+print(F1.read())
+F1.close()
+```
+---
 
 ### Reading a File
 
 Reading a file can be achieved by file.read() which reads the entire content of the file. After reading the file we can close the file using file.close() which closes the file after reading it, which is necessary to free up system resources.
 
-Program → [Open File Handling Example on GitHub](https://github.com/ibraheem-02/Python_Programs/blob/main/FileHandling.ipynb)
+```python
+**Read Character by Character or Line by Line**
+
+```python
+F2 = open("Class_Work/File.txt", "r")
+print(F2.read(10))
+F2.close()
+
+F3 = open("Class_Work/File.txt", "r")
+print(F3.readline())
+print(F3.readline())
+F3.close()
+```
+---
 
 ### Writing to a File
 
 Writing to a file is done using file.write() which writes the specified string to the file. If the file exists, its content is erased. If it doesn’t exist, a new file is created.
 
 Example: Writing to a File in Write Mode (w)
-Program → [Open File Handling Example on GitHub](https://github.com/ibraheem-02/Python_Programs/blob/main/FileHandling.ipynb)
 
+ **Write Mode (`w`)**
+
+```python
+F4 = open("Class_Work/File.txt", "w")
+F4.write("\nThis is the new line added to the file")
+F4.close()
+```
+---
 ### Writing to a File in Append Mode (a)
 
 It is done using file.write() which adds the specified string to the end of the file without erasing its existing content.
 
-Program → [Open File Handling Example on GitHub](https://github.com/ibraheem-02/Python_Programs/blob/main/FileHandling.ipynb)
+**Append Mode (`a`)**
 
+```python
+F1 = open("Class_Work/File.txt", "a")
+F1.write("Muhammad Khalid")
+F1.close()
+```
+---
 ### Closing a File
 
 Closing a file is essential to ensure that all resources used by the file are properly released. file.close() method closes the file and ensures that any changes made to the file are saved.
 
-Program → [Open File Handling Example on GitHub](https://github.com/ibraheem-02/Python_Programs/blob/main/FileHandling.ipynb)
+#### 🔹 Closing a File
+
+Always close files to release system resources.
+
+```python
+F1.close()
+```
+---
