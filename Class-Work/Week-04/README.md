@@ -89,7 +89,7 @@ else:
 
 ### 🔹 Lists in Python
 
-📎 [Lists - GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/List.ipynb)
+📎 [Lists - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-04/List.ipynb)
 
 A **list** is a built-in data structure in Python that stores an **ordered collection of elements**.
 Lists are **mutable**, meaning they can be changed after creation.
