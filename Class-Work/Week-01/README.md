@@ -1,4 +1,4 @@
-# Python_Notes
+# 🐍 Python Notes - Week 01
 
 ## Computer  
 Electronic Device for storing and processing data, typically in binary form, according to given instructions and reduces humans’ efforts.
