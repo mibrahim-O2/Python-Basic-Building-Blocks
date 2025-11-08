@@ -6,7 +6,7 @@
 
 ### 🔹 Multiple Alternate
 
-📎 [Control Structures - GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Control_Structures.ipynb)
+📎 [Control Structures - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-04/Control_Structures%20(1).ipynb)
 
 When we have **more than two conditions** to check, we use the **if–elif–else** structure.
 It allows the program to evaluate multiple conditions sequentially and execute the block of code corresponding to the first `True` condition.
