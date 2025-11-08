@@ -63,7 +63,7 @@ result = avg(10, 20, 30)
 print(result)
 ```
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Functions.ipynb)
+📎 [GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-06/Functions.ipynb)
 
 #### 🔹 Calculator Using Functions
 
@@ -123,7 +123,7 @@ while True:
         print("Average Result:", average(num1, num2))
 ```
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Assignment.ipynb)
+📎 [GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-06/Assignment.ipynb)
 
 ---
 
@@ -155,7 +155,7 @@ faculty["department"] = "Computer Science"
 print(faculty)
 ```
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Dictionary.ipynb)
+📎 [GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-06/Dictionary.ipynb)
 
 ---
 
@@ -234,4 +234,4 @@ for el in range(1,11):
     print(n, "*", el, "=", n*el)
 ```
 
-📎 [GitHub Link](https://github.com/ibraheem-02/Python_Programs/blob/main/Range%26ForLoop.ipynb)
+📎 [GitHub Link]( https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-06/Range%26ForLoop.ipynb)
