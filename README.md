@@ -2,7 +2,7 @@
 
 This repository contains a collection of Python programs and Jupyter notebooks that I have implemented while learning programming fundamentals and problem-solving.  
 Each topic is explained briefly, and the corresponding notebook can be opened directly in **Google Colab** or previewed on **GitHub**.
-# 🐍 Python Notes - Week 01 (Summary)
+# 🐍 Week-01 Summary
 
 ## 🖥️ Computer & Programming  
 - **Computer:** Electronic device that processes and stores data.  
@@ -66,7 +66,7 @@ Access the Week 01 class work repository here:
 
 ---
 
-# 🐍 Python Notes - Week 02 (Summary)
+# 🐍 Week-02 Summary
 
 ## 📘 Topic: Variables, Naming Conventions & Operators
 
@@ -113,7 +113,7 @@ Access all Week 02 class work here:
 [Week 02 Class Work – Python Basic Building Blocks](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/tree/main/Class-Work/Week-02)
 
 ---
-# 🐍 Python Notes - Week 03 (Summary)
+# 🐍 Week-03 Summary
 
 ## 📘 Topic: Type Casting, User Input, Strings & Control Structures
 
@@ -143,105 +143,203 @@ Access all Week 02 class work here:
 
 ### 📂 Full Week 03 Repository
 [Week 03 Class Work – Python Basic Building Blocks](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/tree/main/Class-Work/Week-03)
+---
+# 🐍 Week-04 Summary
 
+## 📘 Topic: Multiple Alternate, Nested If & Lists
 
+### 🔹 Multiple Alternate
+- Use **if–elif–else** to evaluate multiple conditions sequentially.  
+- Only the first `True` block executes.  
+[Control Structures - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-04/Control_Structures%20(1).ipynb)
 
-## ✨ Why Both GitHub & Colab Links?
+### 🔹 Nested If
+- An `if` inside another `if`/`else` to handle hierarchical decisions.  
+- Checks multiple conditions in a logical order.
 
-In this repository, every notebook has **two links**:  
+### 🔹 Lists in Python
+- **Ordered, mutable, indexed, allows duplicates.**  
+- Can store mixed data types.  
+[List - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-04/List.ipynb)
 
-- 📄 **View on GitHub** – Quickly preview the notebook and code without leaving GitHub. Useful if you just want to **read or review**.  
-- 🚀 **Open in Colab** – Instantly run, edit, and experiment with the code in Google Colab (no installation or setup required).  
-
-👉 This approach helps students in two ways:  
-- Study the **logic** directly on GitHub.  
-- Practice **hands-on coding** on Colab.  
+**Common Operations:** append, insert, sort, reverse, remove, pop, palindrome check.  
 
 ---
 
-## Topics Covered
-
-### 1. **Basics of Python**
-- **User Input** – How to take input from the user.  
-  📄 [View on GitHub](./User_Input.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/User_Input.ipynb)  
-
-- **Type Casting** – Converting between data types (int, float, str, etc.).  
-  📄 [View on GitHub](./Type_Casting.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/Type_Casting.ipynb)  
-
-- **Operators** – Arithmetic, comparison, logical, and assignment operators.  
-  📄 [View on GitHub](./Operators.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/Operators.ipynb)  
+## 🧭 Summary
+- Multiple alternate (`if–elif–else`) and nested if for conditional logic.  
+- Lists: creation, properties, operations, sorting, reversing, palindrome check.  
 
 ---
 
-### 2. **Control Structures**
-- **Conditional Statements** – Using `if`, `elif`, and `else`.  
-  📄 [View on GitHub](./Control_Structures.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/Control_Structures.ipynb)  
+### 📂 Full Week 04 Repository
+[Week 04 Class Work – Python Basic Building Blocks](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/tree/main/Class-Work/Week-04)
 
-- **Repetitive Structures (Loops)** – Understanding loops in Python.  
-  📄 [View on GitHub](./Repititve_Structure.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/Repititve_Structure.ipynb)  
+---
+# 🐍 Week-05 Summary
 
-- **Extra Practice on Loops** – Additional exercises.  
-  📄 [View on GitHub](./Repitive_Structure.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/Repitive_Structure.ipynb)  
+## 📘 Topic: Repetitive Structures (Loops) in Python
+
+### 🔹 Python Loops
+- **while loops:** Execute as long as a condition is `True`.  
+- **for loops:** Iterate over a sequence of elements.  
+[While & For Loops - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-05/Repititve_Structure.ipynb)
+
+### 🔹 Sum of Numbers
+- Using **while loop** with unknown or known iterations.  
+- Can exit loop using **negative input** or fixed count.
+
+### 🔹 Continue & Break
+- **continue:** Skip current iteration.  
+- **break:** Exit loop completely.  
+
+### 🔹 Else with While
+- Executes after loop ends naturally (condition is False).
+
+### 🔹 Printing Numbers
+- Odd numbers from 1–100 using while loop in multiple ways.  
+- Multiplication table using loop.
+
+### 🔹 Nested While Loops
+- Loop inside another loop for repeated operations.  
+[Nested While Loop - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-05/Nested_WhileLoop.ipynb)
 
 ---
 
-### 3. **Loops & Iteration**
-- **For Loops & Range** – Iteration using `for` loops with `range()`.  
-  📄 [View on GitHub](./Range%26ForLoop.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/Range%26ForLoop.ipynb)  
+### 📂 Full Week 05 Repository
+[Week 05 Class Work – Python Basic Building Blocks](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/tree/main/Class-Work/Week-05)
+---
+# 🐍 Week-06 Summary
 
-- **Nested While Loops** – Using multiple `while` loops and loop control (`break`, `continue`).  
-  📄 [View on GitHub](./Nested_WhileLoop.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/Nested_WhileLoop.ipynb)  
+## 📘 Topic: Functions, Dictionary, Range & For Loop
+
+### 🔹 Functions
+- **Block of code executed when called**; can accept parameters and return values.  
+- **Create:** `def Function_Name(params): statements`  
+- **Call:** `Function_Name(args)`  
+- Supports **keyword arguments** and **return values**.  
+[Functions - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-06/Functions.ipynb)  
+[Calculator Assignment - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-06/Assignment.ipynb)
+
+### 🔹 Dictionaries
+- Stores data in **key:value** pairs; ordered, changeable, no duplicate keys.  
+- Access via keys, values, or items.  
+[Dictionary - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-06/Dictionary.ipynb)
+
+### 🔹 Python Collections
+- **List:** Ordered, changeable, allows duplicates  
+- **Tuple:** Ordered, unchangeable, allows duplicates  
+- **Set:** Unordered, unindexed, no duplicates  
+- **Dictionary:** Ordered, changeable, no duplicate keys
+
+### 🔹 Range Function
+- Generates number sequences: `range(start, stop, step)`  
+- Example: squares of first 7 numbers using `for el in range(1,8): print(el*el)`  
+
+### 🔹 For Loop
+- Iterates over sequences (list, tuple, string, etc.)  
+- Can use `else` after loop, print in single line with `end=" "`  
+- Example: multiplication table using `for el in range(1,11): print(n,"*",el,"=",n*el)`  
+[Range & For Loop - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-06/Range%26ForLoop.ipynb)
 
 ---
 
-### 4. **Functions**
-- **Functions** – Defining, calling, and using parameters and return values.  
-  📄 [View on GitHub](./Functions.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/Functions.ipynb)  
+### 📂 Full Week 06 Repository
+[Week 06 Class Work – Python Basic Building Blocks](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/tree/main/Class-Work/Week-06)
+---
+# 🐍 Week-07 Summary
 
-- **Recursion** – Recursive functions like factorial and Fibonacci.  
-  📄 [View on GitHub](./Recursion.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/Recursion.ipynb)  
+## 📘 Topic: Advanced Functions, Recursion & File Handling
+
+### 🔹 Advanced Functions
+- **Default Parameters:** Assign default values to parameters.  
+- **Arbitrary Arguments (*args):** Accept variable number of arguments as a tuple.  
+- **Keyword Arguments:** Pass arguments using `key=value` syntax.  
+- **Pass Statement:** Placeholder for empty functions, loops, or conditionals.  
+
+### 🔹 Recursion
+- A function calling itself with **base case** and **recursive case**.  
+- Example: Factorial calculation.  
+[Recursion - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-07/Recursion.ipynb)
+
+### 🔹 File Handling
+- Perform operations: create, open, read, write, close.  
+- **Open Syntax:** `file = open(File_Name, mode)`  
+- **Modes:** `"r"` read, `"w"` write, `"a"` append, `"x"` create; `"t"` text, `"b"` binary.  
+
+**Examples:**  
+- Reading a file: `file.read()`, `file.readline()`  
+- Writing a file: `file.write("text")`  
+- Appending to a file: `file.write("text")`  
+- Always close file: `file.close()`
 
 ---
 
-### 5. **Data Structures**
-- **Strings** – String operations, methods, and manipulations.  
-  📄 [View on GitHub](./String_Functions.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/String_Functions.ipynb)  
+### 📂 Full Week 07 Repository
+[Week 07 Class Work – Python Basic Building Blocks](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/tree/main/Class-Work/Week-07)
+---
+# 🐍 Week-08 Summary
 
-- **Lists** – Creating, indexing, slicing, updating, and iterating lists.  
-  📄 [View on GitHub](./List.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/List.ipynb)  
-
-- **Dictionaries** – Key–value storage, updating, and retrieving data.  
-  📄 [View on GitHub](./Dictionary.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/Dictionary.ipynb)  
-
-- **Swapping Values** – Different ways of swapping values in Python.  
-  📄 [View on GitHub](./Swapping.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/Swapping.ipynb)  
+## 📘 Topic: Object Oriented Programming (OOP)
 
 ---
 
-### 6. **Problem-Solving Programs**
-- **Converter Programs** – Examples like unit and temperature converters.  
-  📄 [View on GitHub](./Converter.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/Converter.ipynb)  
-
-- **Assignment 01** – Practice problems covering basics of Python.  
-  📄 [View on GitHub](./Assignment01.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/Assignment01.ipynb)  
-
-- **Midterm Practice** – Problem-solving exercises for midterm preparation.  
-  📄 [View on GitHub](./Middterm.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/Middterm.ipynb)  
+### 🔹 Overview
+Object Oriented Programming (OOP) in Python allows modeling real-world entities using **objects**, enabling **data encapsulation, inheritance, polymorphism, and abstraction**. OOP overcomes limitations of procedural programming such as poor real-world modeling and unrestricted access to global data.
 
 ---
 
-### 7. **Object-Oriented Programming (OOP)**
-- **OOP Basics** – Introduction to classes, objects, attributes, and methods.  
-  📄 [View on GitHub](./OOP.ipynb) | 🚀 [Open in Colab](https://colab.research.google.com/github/mibrahim-O2/Python_Programs/blob/main/OOP.ipynb)  
+### 🔹 Key Differences: Procedural vs OOP
+
+| Feature                  | Procedural | OOP                     |
+| ------------------------ | ---------- | ----------------------- |
+| Unit                     | Function   | Class                   |
+| Approach                 | Top-down   | Bottom-up               |
+| Adding new data/function | Difficult  | Easy                    |
+| Focus                    | Functions  | Both data & functions   |
 
 ---
 
-> ⚠️ **Important:**  
-> You can open and edit these notebooks in **Google Colab** for practice.  
-> However, any changes you make will **only affect your copy in Colab** —  
-> the original files in this GitHub repository will remain unchanged.
+### 🔹 Fundamental OOP Concepts
+* **Inheritance:** Reuse and extend base class functionality.
+* **Polymorphism:** Same method/operator behaves differently in different contexts.
+* **Encapsulation:** Restrict direct access to data; expose via methods.
+* **Abstraction:** Hide implementation details; expose only essential features.
 
 ---
+
+### 🔹 Learning Resources
+* Detailed **OOP programs** and examples: [View Full OOP Programs](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-08/OOP_Python.ipynb)
+
+---
+
+### 🔹 Full Repository Access
+[Python-Basic-Building-Blocks Full Repo](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/tree/main/Class-Work/Week-08)
+---
+
+## 🏁 Covered Topics
+
+This repository contains Python programming notes covering the basics through advanced topics, structured week by week. Topics included:
+
+- ✅ Python Basics  
+- ✅ Variables, Data Types, and Operators  
+- ✅ Loops & Control Structures  
+- ✅ Lists & Dictionaries  
+- ✅ Functions & Recursion  
+- ✅ File Handling  
+- ✅ Object-Oriented Programming  
+
+---
+
+## 🧑‍💻 Author
+
+**Muhammad Ibrahim** (BSCS Student)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
 
 ## How to Use
 Clone the repository and open the notebooks using **Google Colab** or **Jupyter Notebook**:
@@ -250,3 +348,5 @@ Clone the repository and open the notebooks using **Google Colab** or **Jupyter 
 git clone https://github.com/mibrahim-O2/Python_Programs.git
 cd Python_Programs
 jupyter notebook
+```
+---
