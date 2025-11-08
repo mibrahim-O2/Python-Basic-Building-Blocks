@@ -112,6 +112,40 @@ Access the Week 01 class work repository here:
 Access all Week 02 class work here:  
 [Week 02 Class Work – Python Basic Building Blocks](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/tree/main/Class-Work/Week-02)
 
+---
+# 🐍 Python Notes - Week 03 (Summary)
+
+## 📘 Topic: Type Casting, User Input, Strings & Control Structures
+
+### 🔹 Type Casting
+- **Converts a variable from one type to another**.  
+- **Explicit:** Programmer manually converts using functions.  
+- **Implicit:** Python automatically converts to avoid data loss.  
+[Type Casting - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-03/Type_Casting.ipynb)
+
+### 🔹 User Input
+- Use `input(prompt)` to get data from the user.  
+- Programs can take input and perform operations like average, comparison, etc.  
+[User Input - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-03/User_Input.ipynb)
+
+### 🔹 Strings
+- Strings are enclosed in `' '` or `" "`; multiline strings use triple quotes.  
+- Functions: concatenation, length, indexing, capitalize, replace, find, count.  
+[String Functions - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-03/String_Functions.ipynb)
+
+### 🔹 Control Structures
+- **Flow of execution:** Sequential (default), Selection (conditional).  
+- **Selection Flow:** `if`, `elif`, `else` for single, double, or multiple conditions.  
+- Only the first `True` condition executes its block.  
+[Control Structures - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-03/Control_Structures.ipynb)
+
+---
+
+### 📂 Full Week 03 Repository
+[Week 03 Class Work – Python Basic Building Blocks](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/tree/main/Class-Work/Week-03)
+
+
+
 ## ✨ Why Both GitHub & Colab Links?
 
 In this repository, every notebook has **two links**:  
