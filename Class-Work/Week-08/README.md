@@ -260,5 +260,5 @@ d.speak()
 c.speak()
 ```
 ---
-[View Full OOP Programs on GitHub](https://github.com/ibraheem-02/Python_Programs/blob/main/OOP_Python.ipynb)
+[View Full OOP Programs on GitHub](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-08/OOP_Python.ipynb)
 ---
