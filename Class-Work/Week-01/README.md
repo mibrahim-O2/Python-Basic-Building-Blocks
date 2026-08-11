@@ -77,28 +77,38 @@ A compiler is software that converts the source code to the object code. In othe
 ### Interpreter
 An interpreter is a computer program that executes instructions in a programming language without converting them to machine code. It translates source code into object code one instruction at a time, and then immediately executes that object code.
 
+---
 
-## Compile Time  
+### Compile Time
 Compile time is the time it takes to convert a program's source code into machine code. This process is done by a compiler.
 
-### How it works:
-- A compiler translates the source code into machine code.  
-- The compiler checks for errors in the code.  
-- If there are errors, the compiler won't execute the code until the errors are fixed.  
+**How it works:**
+- A compiler translates the source code into machine code.
+- The compiler checks for errors in the code.
+- If there are errors, the compiler won't execute the code until the errors are fixed.
 - The compiled code is loaded into memory and executed by a processor.
 
-## Run Time  
+### Run Time
 Runtime is the period during which a program is executed by the computer. This is when the program's instructions are carried out by the processor.
 
-### How it Works:
-- The processor executes the compiled machine code (or interpreted code) line by line or instruction by instruction.  
-- During runtime, the program checks for and handles errors that occur while the program is running (e.g., division by zero, null pointer exceptions, or file not found errors).  
-- If errors occur during runtime, the program may crash, display an error message, or handle the error gracefully, depending on how it was programmed.  
+**How it works:**
+- The processor executes the compiled machine code (or interpreted code) line by line or instruction by instruction.
+- During runtime, the program checks for and handles errors that occur while the program is running (e.g., division by zero, null pointer exceptions, or file not found errors).
+- If errors occur during runtime, the program may crash, display an error message, or handle the error gracefully, depending on how it was programmed.
 - The program dynamically allocates and deallocates memory, interacts with hardware, and manages system resources (e.g., opening files, network connections) while it is running.
 
-## Key Differences  
-- **Compile Time:** Focuses on translating source code into machine code and checking for syntax or semantic errors before execution.  
-- **Runtime:** Focuses on executing the compiled or interpreted code, handling dynamic errors, and managing system resources during program execution.
+### Key Differences
+
+| Aspect | Compile Time | Run Time |
+|---|---|---|
+| Focus | Translating source code into machine code and checking for syntax/semantic errors before execution | Executing the compiled or interpreted code, handling dynamic errors, and managing system resources during execution |
+
+---
+
+ 
+
+
+ 
 
 ## Errors  
 
