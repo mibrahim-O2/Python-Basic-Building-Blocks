@@ -123,7 +123,7 @@ An error detected during compilation (before the program runs). Includes syntax 
 
 ---
 
- ### Core Concepts
+### Core Concepts
 
 #### Case-Sensitive
 Case sensitivity describes a programming language's ability to distinguish between upper and lower case versions of a letter. Examples of case-sensitive programming languages include Python, C#, and Java.
@@ -160,33 +160,42 @@ These words are part of the Python syntax and perform specific tasks in the lang
 #### Special Words
 Words used in certain contexts that aren't keywords but have a special meaning or behavior in those contexts (like `self` in Python classes).
 
- 
+---
 
- 
+### Memory
 
+In programming languages, "memory" refers to a dedicated space within a computer where data (like numbers, text, or instructions) is stored and accessed by the program during execution — essentially acting like a collection of "buckets" with unique addresses, allowing the program to retrieve and manipulate information as needed. It's like a temporary workspace where the program keeps track of its current information while running.
 
-
-## Memory  
-In programming languages, "memory" refers to a dedicated space within a computer where data (like numbers, text, or instructions) is stored and accessed by the program during execution, essentially acting like a collection of "buckets" with unique addresses, allowing the program to retrieve and manipulate information as needed; it's like a temporary workspace where the program keeps track of its current information while running.
-
-### Key points about memory in programming:
-- **Data storage:** The primary function of memory is to hold the data a program needs to operate, including variables, function arguments, and intermediate results.  
-- **Addressing:** Each piece of data in memory has a unique address, which allows the program to access it specifically.  
-- **Logical vs. Physical Memory:** While a programmer interacts with "logical memory" (an abstraction of memory addresses), the actual physical hardware (RAM) stores the data in a different way, managed by the operating system.  
+**Key points about memory in programming:**
+- **Data storage:** The primary function of memory is to hold the data a program needs to operate, including variables, function arguments, and intermediate results.
+- **Addressing:** Each piece of data in memory has a unique address, which allows the program to access it specifically.
+- **Logical vs. Physical Memory:** While a programmer interacts with "logical memory" (an abstraction of memory addresses), the actual physical hardware (RAM) stores the data in a different way, managed by the operating system.
 - **Memory management:** Programmers need to manage memory by allocating space for data when needed and releasing it when no longer required to avoid memory leaks.
 
-## Data-type  
+---
+
+### Data Types
+
 In programming languages, data types are classifications that define the kind of value a variable can hold, including common types like integers, floating-point numbers (floats), characters, strings, and booleans, which are essential for performing operations on data accurately and efficiently.
 
-### Numeric data types:
-- **int (integer):** Whole numbers like 1, 2, 3, -5.  
-- **float (floating-point):** Numbers with decimal places like 3.14, -2.5.  
+#### Numeric Data Types
+| Type | Description | Example |
+|---|---|---|
+| `int` (integer) | Whole numbers | `1`, `2`, `3`, `-5` |
+| `float` (floating-point) | Numbers with decimal places | `3.14`, `-2.5` |
 
-### Text data type:
-- **str (string):** Sequences of characters enclosed in quotes like "Hello World".  
+#### Text Data Type
+| Type | Description | Example |
+|---|---|---|
+| `str` (string) | Sequences of characters enclosed in quotes | `"Hello World"` |
 
-### Boolean data type:
-- **bool (boolean):** Represents logical values True or False.
+#### Boolean Data Type
+| Type | Description | Example |
+|---|---|---|
+| `bool` (boolean) | Represents logical values | `True`, `False` |
 
-## Variables  
-Variables are the logical names of memory locations where we can store our data or variable has ability to change its values.
+---
+
+### Variables
+
+Variables are the logical names of memory locations where we can store our data, or a variable has the ability to change its values.
