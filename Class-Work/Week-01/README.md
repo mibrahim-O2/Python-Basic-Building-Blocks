@@ -1,3 +1,20 @@
+<div align="center">
+
+# Python Notes
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
+![Week](https://img.shields.io/badge/Week-01-blue?style=for-the-badge)
+
+## Week 01
+
+</div>
+
+ 
+
+
+
+
 # 🐍 Python Notes - Week 01
 
 ## Computer  
