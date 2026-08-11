@@ -10,7 +10,39 @@
 
 </div>
 
- 
+---
+
+### Table of Contents
+- [Computer](#computer)
+- [Program](#program)
+- [Computer Programming](#computer-programming)
+- [Languages](#languages)
+- [Translator](#translator)
+- [High Level Language](#high-level-language)
+- [Assembly Language](#assembly-language)
+- [Compiler-Based Language](#compiler-based-language)
+- [Interpreter-Based Language](#interpreter-based-language)
+- [Compiler](#compiler)
+- [Interpreter](#interpreter)
+- [Compile Time](#compile-time)
+- [Run Time](#run-time)
+- [Key Differences](#key-differences)
+- [Errors](#errors)
+  - [Syntax Error](#syntax-error)
+  - [Run Time Error](#run-time-error)
+  - [Compile Time Error](#compile-time-error)
+- [Core Concepts](#core-concepts)
+  - [Case-Sensitive](#case-sensitive)
+  - [Syntax](#syntax)
+  - [Character Set](#character-set)
+  - [Reserved Words](#reserved-words)
+  - [Keywords](#keywords)
+  - [Special Words](#special-words)
+- [Memory](#memory)
+- [Data Types](#data-types)
+- [Variables](#variables)
+
+---
 
 
 
