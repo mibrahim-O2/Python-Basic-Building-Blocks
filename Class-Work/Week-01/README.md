@@ -123,41 +123,48 @@ An error detected during compilation (before the program runs). Includes syntax 
 
 ---
 
- 
+ ### Core Concepts
 
- 
+#### Case-Sensitive
+Case sensitivity describes a programming language's ability to distinguish between upper and lower case versions of a letter. Examples of case-sensitive programming languages include Python, C#, and Java.
 
+#### Syntax
+In programming, syntax refers to the set of rules that defines the structure and order of symbols, keywords, and punctuation used to write valid code in a specific programming language.
 
-## Case-sensitive  
-Case sensitivity describes a programming language's ability to distinguish between upper and lower case versions of a letter. Examples of case sensitive programming languages include Python, C#, and Java.
+**Example:**
+In Python, to print "Hello, World!" the syntax is:
+```python
+print("Hello, World!")
+```
+This means that the `print` keyword needs to be used followed by parentheses containing the string to be printed.
 
-## Syntax  
-In programing, syntax refers to the set of rules that defines the structure and order of symbols, keywords, and punctuation used to write valid code in specific programing language.  
-
-**Example:**  
-In Python, to print "Hello, World!" the syntax is:  
-`print("Hello, World!")`.  
-This means that the "print" keyword needs to be used followed by parentheses containing the string to be printed.
-
-## Character Set  
+#### Character Set
 A character set is a collection of characters used to represent text in a computer system. It includes letters, numbers, symbols, and other characters that a computer can display or process.
 
-## Reserve words  
-Reserved words in Python are words that are reserved by the Python language for specific purposes. These words cannot be used as identifiers (like variable names, function names, etc.) because they are meant to have a special meaning or are kept for future use in the language.  
-**Examples of reserved words in Python:** False, await, async, None, True, yield, def, if, else, return, import, from, etc.
+#### Reserved Words
+Reserved words in Python are words that are reserved by the Python language for specific purposes. These words cannot be used as identifiers (like variable names, function names, etc.) because they are meant to have a special meaning or are kept for future use in the language.
 
-## Keywords  
-Keywords are a subset of reserved words that are actively used in the language to perform specific operations or define language structures. Keywords are essential for the syntax and control flow of the program.  
-**Examples of keywords in Python:** def, if, else, while, for, break, continue, return, import, class, try, except.  
+**Examples of reserved words in Python:** `False`, `await`, `async`, `None`, `True`, `yield`, `def`, `if`, `else`, `return`, `import`, `from`, etc.
 
-These words are part of the Python syntax and perform specific tasks in the language. For instance:  
-- `def` is used to define functions.  
-- `if`, `else` are used for conditional statements.  
-- `for`, `while` are used for loops.  
+#### Keywords
+Keywords are a subset of reserved words that are actively used in the language to perform specific operations or define language structures. Keywords are essential for the syntax and control flow of the program.
+
+**Examples of keywords in Python:** `def`, `if`, `else`, `while`, `for`, `break`, `continue`, `return`, `import`, `class`, `try`, `except`
+
+These words are part of the Python syntax and perform specific tasks in the language. For instance:
+- `def` is used to define functions.
+- `if`, `else` are used for conditional statements.
+- `for`, `while` are used for loops.
 - `return` is used to exit a function and return a value.
 
-## Special Words  
-Are words used in certain contexts that aren’t keywords but have a special meaning or behavior in those contexts (like `self` in Python classes).
+#### Special Words
+Words used in certain contexts that aren't keywords but have a special meaning or behavior in those contexts (like `self` in Python classes).
+
+ 
+
+ 
+
+
 
 ## Memory  
 In programming languages, "memory" refers to a dedicated space within a computer where data (like numbers, text, or instructions) is stored and accessed by the program during execution, essentially acting like a collection of "buckets" with unique addresses, allowing the program to retrieve and manipulate information as needed; it's like a temporary workspace where the program keeps track of its current information while running.
