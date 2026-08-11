@@ -105,26 +105,28 @@ Runtime is the period during which a program is executed by the computer. This i
 
 ---
 
+### Errors
+
+#### Syntax Error
+A mistake in the structure of the code that violates the rules of the programming language.
+> **Example:** Missing semicolons, unmatched parentheses, or typos in keywords.
+
+#### Run Time Error
+An error that occurs while the program is running. The code compiles successfully but fails during execution.
+> **Example:** Division by zero, accessing an invalid index in an array, or null pointer dereference.
+
+#### Compile Time Error
+An error detected during compilation (before the program runs). Includes syntax errors and other issues like:
+- Type mismatches (e.g., assigning a string to an integer variable)
+- Undeclared variables or functions
+- Missing imports or incorrect method signatures
+
+---
+
  
 
-
  
 
-## Errors  
-
-### Syntax Error  
-A mistake in the structure of the code that violates the rules of the programming language.  
-**Example:** Missing semicolons, unmatched parentheses, or typos in keywords.
-
-### Run Time Error  
-An error that occurs while the program is running. The code compiles successfully but fails during execution.  
-**Example:** Division by zero, accessing an invalid index in an array, or null pointer dereference.
-
-### Compile Time Error  
-An error detected during compilation (before the program runs). Includes syntax errors and other issues like:  
-- Type mismatches (e.g., assigning a string to an integer variable).  
-- Undeclared variables or functions.  
-- Missing imports or incorrect method signatures.
 
 ## Case-sensitive  
 Case sensitivity describes a programming language's ability to distinguish between upper and lower case versions of a letter. Examples of case sensitive programming languages include Python, C#, and Java.
