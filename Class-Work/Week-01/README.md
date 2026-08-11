@@ -44,22 +44,66 @@
 
 ---
 
+# Python Notes
 
+<div align="center">
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
+![Week](https://img.shields.io/badge/Week-01-blue?style=for-the-badge)
 
-# 🐍 Python Notes - Week 01
+</div>
 
-## Computer  
-Electronic Device for storing and processing data, typically in binary form, according to given instructions and reduces humans’ efforts.
+---
 
-## Program  
-Set of instruction that a computer follows in order to perform a particular task.
+## Week 01
 
-## Computer Programming  
-Act to write computer program or the process of writing instructions for a computer to follow. These instructions are called programs.
+### Table of Contents
+- [Computer](#computer)
+- [Program](#program)
+- [Computer Programming](#computer-programming)
+- [Languages](#languages)
+- [Translator](#translator)
+- [High Level Language](#high-level-language)
+- [Assembly Language](#assembly-language)
+- [Compiler-Based Language](#compiler-based-language)
+- [Interpreter-Based Language](#interpreter-based-language)
+- [Compiler](#compiler)
+- [Interpreter](#interpreter)
+- [Compile Time](#compile-time)
+- [Run Time](#run-time)
+- [Key Differences](#key-differences)
+- [Errors](#errors)
+  - [Syntax Error](#syntax-error)
+  - [Run Time Error](#run-time-error)
+  - [Compile Time Error](#compile-time-error)
+- [Core Concepts](#core-concepts)
+  - [Case-Sensitive](#case-sensitive)
+  - [Syntax](#syntax)
+  - [Character Set](#character-set)
+  - [Reserved Words](#reserved-words)
+  - [Keywords](#keywords)
+  - [Special Words](#special-words)
+- [Memory](#memory)
+- [Data Types](#data-types)
+- [Variables](#variables)
 
-## Languages  
-A structure system of communication that consists of grammar and vocabulary. It is primary means by which humans convey meaning, both in spoken and signed forms, and may also conveyed through writing.
+---
+
+### Computer
+Electronic device for storing and processing data, typically in binary form, according to given instructions and reduces humans' efforts.
+
+### Program
+Set of instructions that a computer follows in order to perform a particular task.
+
+### Computer Programming
+Act to write a computer program, or the process of writing instructions for a computer to follow. These instructions are called programs.
+
+### Languages
+A structured system of communication that consists of grammar and vocabulary. It is the primary means by which humans convey meaning, both in spoken and signed forms, and may also be conveyed through writing.
+
+ 
+
 
 ## Translator  
 A translator is a computer program that converts the programing instruction in binary language and source code that computer understand and process.
