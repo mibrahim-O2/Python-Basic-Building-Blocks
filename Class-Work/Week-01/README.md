@@ -56,29 +56,27 @@ Act to write a computer program, or the process of writing instructions for a co
 ### Languages
 A structured system of communication that consists of grammar and vocabulary. It is the primary means by which humans convey meaning, both in spoken and signed forms, and may also be conveyed through writing.
 
- 
+### Translator
+A translator is a computer program that converts programming instructions into binary language and source code that a computer can understand and process.
 
+### High Level Language
+A programming language that is designed to make it easier for humans to understand and write.
 
-## Translator  
-A translator is a computer program that converts the programing instruction in binary language and source code that computer understand and process.
+### Assembly Language
+A programming language that translates high-level language into machine language.
 
-## High level language  
-A programing language that is designed to make it easier for humans to understand and write.
-
-## Assembly Language  
-A programing language that translate high level language into machine language.
-
-## Compiler based language  
+### Compiler-Based Language
 A compiler-based language is a programming language that is converted into machine code using a compiler. This machine code is then executed by the processor. Programs are compiled into machine code before execution (e.g., C, C++).
 
-## Interpreter Based Language  
+### Interpreter-Based Language
 An interpreted language is a programming language that executes instructions directly, without first compiling the code into machine language. Programs are executed line by line by an interpreter (e.g., Python, JavaScript).
 
-## Compiler  
-A compiler is a software that converts the source code to the object code. In other words, it converts the high-level language to machine/binary language.
+### Compiler
+A compiler is software that converts the source code to the object code. In other words, it converts the high-level language to machine/binary language.
 
-## Interpreter  
+### Interpreter
 An interpreter is a computer program that executes instructions in a programming language without converting them to machine code. It translates source code into object code one instruction at a time, and then immediately executes that object code.
+
 
 ## Compile Time  
 Compile time is the time it takes to convert a program's source code into machine code. This process is done by a compiler.
