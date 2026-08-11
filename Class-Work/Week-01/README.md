@@ -44,52 +44,6 @@
 
 ---
 
-# Python Notes
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
-![Week](https://img.shields.io/badge/Week-01-blue?style=for-the-badge)
-
-</div>
-
----
-
-## Week 01
-
-### Table of Contents
-- [Computer](#computer)
-- [Program](#program)
-- [Computer Programming](#computer-programming)
-- [Languages](#languages)
-- [Translator](#translator)
-- [High Level Language](#high-level-language)
-- [Assembly Language](#assembly-language)
-- [Compiler-Based Language](#compiler-based-language)
-- [Interpreter-Based Language](#interpreter-based-language)
-- [Compiler](#compiler)
-- [Interpreter](#interpreter)
-- [Compile Time](#compile-time)
-- [Run Time](#run-time)
-- [Key Differences](#key-differences)
-- [Errors](#errors)
-  - [Syntax Error](#syntax-error)
-  - [Run Time Error](#run-time-error)
-  - [Compile Time Error](#compile-time-error)
-- [Core Concepts](#core-concepts)
-  - [Case-Sensitive](#case-sensitive)
-  - [Syntax](#syntax)
-  - [Character Set](#character-set)
-  - [Reserved Words](#reserved-words)
-  - [Keywords](#keywords)
-  - [Special Words](#special-words)
-- [Memory](#memory)
-- [Data Types](#data-types)
-- [Variables](#variables)
-
----
-
 ### Computer
 Electronic device for storing and processing data, typically in binary form, according to given instructions and reduces humans' efforts.
 
