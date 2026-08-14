@@ -109,6 +109,18 @@ marks = 88
 
 ---
 
+## User Input
+
+Instead of assigning a fixed value, a variable can also store data taken from the user at runtime using the `input()` function.
+
+**Example:**
+```python
+name = input("Enter your name: ")
+print("Hello,", name)
+```
+
+---
+
 ## ⚙️ Python Programs
 
 ### 🔸 Swapping Two Numbers
