@@ -37,25 +37,8 @@ age = 25
 car_name = "Corolla"
 total_volume = 150.5
 ```
-
 ---
 
-
-# 🐍 Python Notes - Week 02
-
-## 📘 Topic: Variables, Naming Conventions & Operators
-
-### 🔹 Variable Declaration / Naming
-A variable can have a short name (`x`, `y`) or a more descriptive name (`age`, `car_name`, `total_volume`).
-
-#### Rules for Python Variables:
-- Must start with a **letter** or an **underscore (`_`)**  
-- Cannot start with a **number**  
-- Can only contain **alphanumeric characters & underscores** (`A-z`, `0-9`, `_`)  
-- **Case-sensitive** (`age`, `Age`, and `AGE` are different variables)  
-- Cannot be any of the **Python keywords**
-
----
 
 ### 🧩 Multi-Word Variable Names
 When a variable name contains multiple words, these are common naming styles:
