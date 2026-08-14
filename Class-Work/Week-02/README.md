@@ -62,9 +62,8 @@ total_marks = 95
 
 ---
 
+## Multi-Word Variable Names
 
-
-### 🧩 Multi-Word Variable Names
 When a variable name contains multiple words, these are common naming styles:
 
 | Style | Example | Description |
@@ -72,6 +71,16 @@ When a variable name contains multiple words, these are common naming styles:
 | **Camel Case** | `myVariableName = "Muhammad Ibrahim"` | Each word except the first starts with a capital letter |
 | **Pascal Case** | `MyVariableName = "Muhammad Ibrahim"` | Each word starts with a capital letter |
 | **Snake Case** | `my_variable_name = "Muhammad Ibrahim"` | Words are separated by underscores |
+
+**Example:**
+```python
+myVariableName = "Muhammad Ibrahim"     # Camel Case
+MyVariableName = "Muhammad Ibrahim"     # Pascal Case
+my_variable_name = "Muhammad Ibrahim"   # Snake Case
+```
+
+---
+
 
 ---
 
