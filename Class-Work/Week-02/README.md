@@ -153,14 +153,6 @@ print(a % b)   # Modulus
 print(a ** b)  # Exponentiation
 print(a // b)  # Floor Division
 ```
-
-## ⚙️ Python Programs
-
-### 🔸 Swapping Two Numbers
-[GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-02/Swapping.ipynb)
-
-#### 🔹  Operators
-[GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-02/Operators.ipynb)
-
+---
  
 
