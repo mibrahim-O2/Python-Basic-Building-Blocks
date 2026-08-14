@@ -26,6 +26,20 @@
 
 ---
 
+## Variable Declaration / Naming
+
+A variable can have a short name (`x`, `y`) or a more descriptive name (`age`, `car_name`, `total_volume`).
+
+**Example:**
+```python
+x = 5
+age = 25
+car_name = "Corolla"
+total_volume = 150.5
+```
+
+---
+
 
 # 🐍 Python Notes - Week 02
 
