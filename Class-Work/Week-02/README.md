@@ -39,6 +39,30 @@ total_volume = 150.5
 ```
 ---
 
+## Rules for Python Variables
+
+- Must start with a **letter** or an **underscore (`_`)**
+- Cannot start with a **number**
+- Can only contain **alphanumeric characters & underscores** (`A-z`, `0-9`, `_`)
+- **Case-sensitive** (`age`, `Age`, and `AGE` are different variables)
+- Cannot be any of the **Python keywords**
+
+**Example:**
+```python
+# Valid variable names
+_name = "Ibrahim"
+age1 = 20
+total_marks = 95
+
+# Invalid variable names
+# 1age = 20        -> starts with a number (Error)
+# total-marks = 95 -> contains a hyphen (Error)
+# for = 10          -> 'for' is a keyword (Error)
+```
+
+---
+
+
 
 ### 🧩 Multi-Word Variable Names
 When a variable name contains multiple words, these are common naming styles:
