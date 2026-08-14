@@ -90,6 +90,25 @@ There are two common ways to store values in a variable:
 
 ---
 
+## Assignment Operator
+
+The assignment operator (`=`) is used to directly assign a value to a variable.
+
+**Example:**
+```python
+name = "Ibrahim"
+marks = 88
+```
+
+> **Note:** A variable cannot be assigned on the right-hand side because constant values cannot store variables due to memory allocation.
+
+**Example (Invalid):**
+```python
+# 10 = age   -> Invalid, constant value cannot store a variable
+```
+
+---
+
 ## ⚙️ Python Programs
 
 ### 🔸 Swapping Two Numbers
