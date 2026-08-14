@@ -1,3 +1,32 @@
+<div align="center">
+
+# Python Notes
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
+![Week](https://img.shields.io/badge/Week-02-blue?style=for-the-badge)
+
+# Week 02
+### Topic: Variables, Naming Conventions & Operators
+
+</div>
+
+---
+
+## Table of Contents
+- [Variable Declaration / Naming](#variable-declaration--naming)
+- [Rules for Python Variables](#rules-for-python-variables)
+- [Multi-Word Variable Names](#multi-word-variable-names)
+- [Two Ways to Store Values in Data](#two-ways-to-store-values-in-data)
+- [Assignment Operator](#assignment-operator)
+- [User Input](#user-input)
+- [Python Programs](#python-programs)
+  - [Swapping Two Numbers](#swapping-two-numbers)
+  - [Operators](#operators)
+
+---
+
+
 # 🐍 Python Notes - Week 02
 
 ## 📘 Topic: Variables, Naming Conventions & Operators
