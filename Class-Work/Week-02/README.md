@@ -121,6 +121,39 @@ print("Hello,", name)
 
 ---
 
+## Python Programs
+
+### Swapping Two Numbers
+[GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-02/Swapping.ipynb)
+
+**Example:**
+```python
+a = 5
+b = 10
+
+a, b = b, a
+
+print("a =", a)
+print("b =", b)
+```
+
+### Operators
+[GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-02/Operators.ipynb)
+
+**Example:**
+```python
+a = 10
+b = 3
+
+print(a + b)   # Addition
+print(a - b)   # Subtraction
+print(a * b)   # Multiplication
+print(a / b)   # Division
+print(a % b)   # Modulus
+print(a ** b)  # Exponentiation
+print(a // b)  # Floor Division
+```
+
 ## ⚙️ Python Programs
 
 ### 🔸 Swapping Two Numbers
