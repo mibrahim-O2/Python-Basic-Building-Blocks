@@ -81,14 +81,12 @@ my_variable_name = "Muhammad Ibrahim"   # Snake Case
 
 ---
 
+## Two Ways to Store Values in Data
 
----
+There are two common ways to store values in a variable:
 
-### 🧠 Two Ways to Store Values in Data
-1. **Assignment Operator**  
+1. **Assignment Operator**
 2. **User Input**
-
-> **Note:** A variable cannot be assigned on the right-hand side because constant values cannot store variables due to memory allocation.
 
 ---
 
