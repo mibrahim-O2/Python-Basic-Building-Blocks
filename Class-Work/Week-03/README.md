@@ -72,11 +72,23 @@ print(price + 0.5)     # Output: 100.0
 
 ---
 
-**Implicit Type Casting:**  
-In implicit type casting, Python handles the conversion of data types automatically.  
-This process usually occurs when different types need to be used together in an expression.  
-Python converts the lower precision type to a higher precision type to avoid data loss.  
+## Implicit Type Casting
+
+In implicit type casting, Python handles the conversion of data types automatically.
+
+This process usually occurs when different types need to be used together in an expression. Python converts the lower precision type to a higher precision type to avoid data loss.
+
 This process ensures that operations run smoothly without requiring manual intervention.
+
+**Example:**
+```python
+a = 5        # int
+b = 2.5      # float
+
+result = a + b   # Python automatically converts 'a' to float
+print(result)      # Output: 7.5
+print(type(result))  # Output: <class 'float'>
+```
 
 ---
 
