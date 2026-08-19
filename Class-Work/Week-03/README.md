@@ -196,20 +196,29 @@ print(text.count("l"))      # Output: 3
 
 ---
 
-### 🔹 Control Structure: Flow of Execution of Program
+## Control Structure: Flow of Execution of Program
 
 📎 [Control Structures - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-03/Control_Structures.ipynb)
 
-Control structures determine the **flow of execution** of a program.  
+Control structures determine the **flow of execution** of a program.
 They allow developers to control how and when certain parts of code are executed.
 
 There are two main types of flow in Python programs:
 
 ---
 
-#### 1. Sequential Flow
-Sequential flow (also called linear flow) means that every statement is executed one by one in order.  
+### 1. Sequential Flow
+
+Sequential flow (also called linear flow) means that every statement is executed one by one in order.
 This is the default flow of execution in Python.
+
+**Example:**
+```python
+print("Step 1")
+print("Step 2")
+print("Step 3")
+# Output will always be in this exact order
+```
 
 ---
 
