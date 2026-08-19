@@ -92,22 +92,37 @@ print(type(result))  # Output: <class 'float'>
 
 ---
 
-### 🔹 Input from User
+## Input from User
 
 The `input()` function allows user input.
 
-**Syntax:**  
-`input(prompt)`  
+**Syntax:**
+```python
+input(prompt)
+```
 
 **prompt:** A string representing a default message before the input.
 
-📎 [User Input - GitHub Link]( https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-03/User_Input.ipynb)
+📎 [User Input - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-03/User_Input.ipynb)
 
 You can write programs that:
-- Take two numbers as input and print the average of those numbers.  
+- Take two numbers as input and print the average of those numbers.
 - Compare two numbers and return `True` if the first is greater than or equal to the second, otherwise `False`.
 
+**Example:**
+```python
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+average = (num1 + num2) / 2
+print("Average:", average)
+
+is_greater_or_equal = num1 >= num2
+print("Is first >= second:", is_greater_or_equal)
+```
+
 ---
+
 
 ### 🔹 Strings in Python
 
