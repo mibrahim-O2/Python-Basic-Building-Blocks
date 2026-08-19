@@ -1,3 +1,34 @@
+<div align="center">
+
+# Python Notes
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
+![Week](https://img.shields.io/badge/Week-03-blue?style=for-the-badge)
+
+# Week 03
+### Topic: Type Casting, Input from User, Strings & Control Structures
+
+</div>
+
+---
+
+## Table of Contents
+- [Type Casting](#type-casting)
+  - [Explicit Type Casting](#explicit-type-casting)
+  - [Implicit Type Casting](#implicit-type-casting)
+- [Input from User](#input-from-user)
+- [Strings in Python](#strings-in-python)
+- [String Functions](#string-functions)
+- [Control Structure: Flow of Execution of Program](#control-structure-flow-of-execution-of-program)
+  - [Sequential Flow](#1-sequential-flow)
+  - [Selection Flow](#2-selection-flow)
+    - [Single Alternate](#single-alternate)
+    - [Double Alternate](#double-alternate)
+    - [Multiple Alternate](#multiple-alternate)
+
+---
+
 # 🐍 Python Notes - Week 03
 
 ## 📘 Topic: Type Casting, Input from User, Strings & Control Structures
