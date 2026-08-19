@@ -123,18 +123,32 @@ print("Is first >= second:", is_greater_or_equal)
 
 ---
 
-
-### 🔹 Strings in Python
+## Strings in Python
 
 📎 [String Functions - GitHub Link](https://github.com/mibrahim-O2/Python-Basic-Building-Blocks/blob/main/Class-Work/Week-03/String_Functions.ipynb)
 
-Strings in Python are surrounded by either single quotation marks or double quotation marks.  
-`'hello'` is the same as `"hello"`.  
+Strings in Python are surrounded by either single quotation marks or double quotation marks.
+`'hello'` is the same as `"hello"`.
 
-Assigning a string to a variable is done with the variable name followed by an equal sign and the string.  
-We can also assign a multiline string to a variable by using three quotes.  
+Assigning a string to a variable is done with the variable name followed by an equal sign and the string.
+We can also assign a multiline string to a variable by using three quotes.
 
-A string can contain both single and double quotes by enclosing the text in triple quotes (`'''` or `"""`).  
+A string can contain both single and double quotes by enclosing the text in triple quotes (`'''` or `"""`).
+
+**Example:**
+```python
+a = 'hello'
+b = "hello"
+print(a == b)   # Output: True
+
+multiline = """This is
+a multiline
+string"""
+print(multiline)
+
+quoted = '''She said, "Python is fun!"'''
+print(quoted)
+```
 
 ---
 
