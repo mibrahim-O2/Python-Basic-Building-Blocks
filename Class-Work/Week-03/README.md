@@ -273,22 +273,17 @@ else:
 
 ---
 
+#### Multiple Alternate
 
-  # 🔸 Multiple Alternate
-
-Used when there are **multiple conditions** to evaluate sequentially.  
-Python checks each condition one by one until one is `True`.  
+Used when there are **multiple conditions** to evaluate sequentially.
+Python checks each condition one by one until one is `True`.
 If none of them are true, the `else` block executes.
 
----
-
-### 🧠 Concept
-The `if-elif-else` structure allows you to handle multiple decision branches in your program.  
+### Concept
+The `if-elif-else` structure allows you to handle multiple decision branches in your program.
 Only the first condition that evaluates to `True` will execute its corresponding code block — the rest are skipped.
 
----
-
-### 🧩 Syntax
+### Syntax
 ```python
 if (condition):
     statement
@@ -296,6 +291,18 @@ elif (condition):
     statement
 else:
     statement
+```
 
+**Example:**
+```python
+marks = 75
 
-
+if marks >= 90:
+    print("Grade: A")
+elif marks >= 75:
+    print("Grade: B")
+elif marks >= 60:
+    print("Grade: C")
+else:
+    print("Grade: F")
+```
