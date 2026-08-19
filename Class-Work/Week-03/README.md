@@ -49,10 +49,28 @@ print(num + 3)   # Error: can't add str and int
 
 ---
 
+## Explicit Type Casting
 
-**Explicit Type Casting:**  
-Explicit conversion requires you to use built-in Python functions to convert a value from one type to another manually. When you specify explicit type casting, you have full control over the data type you want.  
+Explicit conversion requires you to use built-in Python functions to convert a value from one type to another manually. When you specify explicit type casting, you have full control over the data type you want.
+
 The explicit type casting is performed as per the requirement and avoids type mismatches in Python.
+
+**Example:**
+```python
+num = "27"
+num = int(num)     # Explicit casting: str -> int
+print(num + 3)      # Output: 30
+
+value = 10
+value = str(value)  # Explicit casting: int -> str
+print("Value is " + value)   # Output: Value is 10
+
+price = "99.5"
+price = float(price)  # Explicit casting: str -> float
+print(price + 0.5)     # Output: 100.0
+```
+
+---
 
 **Implicit Type Casting:**  
 In implicit type casting, Python handles the conversion of data types automatically.  
