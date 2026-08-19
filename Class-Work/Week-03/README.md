@@ -29,9 +29,7 @@
 
 ---
 
-# 🐍 Python Notes - Week 03
-
-## 📘 Topic: Type Casting, Input from User, Strings & Control Structures
+ 
 
 ---
 
