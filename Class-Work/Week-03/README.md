@@ -152,19 +152,47 @@ print(quoted)
 
 ---
 
-### 🔹 String Functions
+## String Functions
 
 Python provides several useful functions and operations for working with strings:
 
-- **Concatenation:** Joining two or more strings together.  
-- **Length of String:** Finding the number of characters in a string.  
-- **Indexing:** Accessing specific characters in a string using index positions.  
-- **Capitalize:** Capitalizing the first letter of a string.  
-- **Replace:** Replacing specific characters or words in a string.  
-- **Find:** Searching for the first occurrence of a specific character or word and returning its index.  
-- **Count:** Counting how many times a specific character appears in a string.  
+- **Concatenation:** Joining two or more strings together.
+- **Length of String:** Finding the number of characters in a string.
+- **Indexing:** Accessing specific characters in a string using index positions.
+- **Capitalize:** Capitalizing the first letter of a string.
+- **Replace:** Replacing specific characters or words in a string.
+- **Find:** Searching for the first occurrence of a specific character or word and returning its index.
+- **Count:** Counting how many times a specific character appears in a string.
 
-If a searched letter or word is not found, the `find()` function returns `-1` because it’s not a valid index.
+If a searched letter or word is not found, the `find()` function returns `-1` because it's not a valid index.
+
+**Example:**
+```python
+text = "hello world"
+
+# Concatenation
+greeting = text + "!"
+print(greeting)          # Output: hello world!
+
+# Length of String
+print(len(text))          # Output: 11
+
+# Indexing
+print(text[0])            # Output: h
+
+# Capitalize
+print(text.capitalize())  # Output: Hello world
+
+# Replace
+print(text.replace("world", "python"))  # Output: hello python
+
+# Find
+print(text.find("world"))   # Output: 6
+print(text.find("xyz"))     # Output: -1 (not found)
+
+# Count
+print(text.count("l"))      # Output: 3
+```
 
 ---
 
