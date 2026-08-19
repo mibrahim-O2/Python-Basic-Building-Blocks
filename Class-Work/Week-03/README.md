@@ -222,31 +222,57 @@ print("Step 3")
 
 ---
 
-#### 2. Selection Flow
-Selection flow is a programming concept where different sections of code are executed based on conditions.  
+### 2. Selection Flow
+
+Selection flow is a programming concept where different sections of code are executed based on conditions.
 It allows programs to make decisions, which is fundamental in creating dynamic and interactive applications.
 
 In Python, selection flow is implemented using **if**, **elif**, and **else** statements.
 
 ---
 
-### 🔸 Single Alternate
+#### Single Alternate
+
 Executes a block of code only if a specific condition is true.
 
-**Syntax:**  
-`if (condition):`  
- `statement`
+**Syntax:**
+```python
+if (condition):
+    statement
+```
+
+**Example:**
+```python
+age = 20
+if age >= 18:
+    print("You are eligible to vote")
+```
 
 ---
 
-### 🔸 Double Alternate
+#### Double Alternate
+
 Executes one block if a condition is true and another block if it is false.
 
-**Syntax:**  
-`if (condition):`
-    `statement`
-`else:`
-    `statement`
+**Syntax:**
+```python
+if (condition):
+    statement
+else:
+    statement
+```
+
+**Example:**
+```python
+age = 15
+if age >= 18:
+    print("You are eligible to vote")
+else:
+    print("You are not eligible to vote")
+```
+
+---
+
 
   # 🔸 Multiple Alternate
 
